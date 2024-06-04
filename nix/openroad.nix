@@ -42,8 +42,8 @@
   bison,
   clang-tools_14,
   ioplace-parser,
-  rev ? "d423155d69de7f683a23f6916ead418a615ad4ad",
-  sha256 ? "sha256-RrJYdvzxD64TeNAlPs6G4BKxflpQO6ED78SqQVH7EUE=",
+  rev ? "29965ffdee88e3b7cf7772e4a0d8a4de92d58eda",
+  sha256 ? "sha256-2mafxuy3/E8bDzS0/1LM/QLOdqh4CskhFDTzCKiMPt4=",
 }: let
   pyenv = python3.withPackages (p:
     with p; [
