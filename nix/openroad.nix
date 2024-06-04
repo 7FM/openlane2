@@ -59,7 +59,7 @@ in
     inherit rev;
 
     src = fetchFromGitHub {
-      owner = "The-OpenROAD-Project";
+      owner = "7FM";
       repo = "OpenROAD";
       inherit rev;
       inherit sha256;
